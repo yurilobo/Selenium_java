@@ -1,0 +1,10 @@
+2021-01-29 21:15:33,466 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-01-29 21:17:23,887 [Worker-9: Creating project "iterasys"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qarentena:iterasys:0.0.1-SNAPSHOT @ C:\temp\ws-eclipse-estudo-selenium\iterasys\pom.xml.
+2021-01-29 21:17:25,038 [Worker-9: Creating project "iterasys"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iterasys/src/main/java
+2021-01-29 21:17:25,040 [Worker-9: Creating project "iterasys"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iterasys/src/main/resources
+2021-01-29 21:17:25,041 [Worker-9: Creating project "iterasys"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iterasys/src/test/java
+2021-01-29 21:17:25,041 [Worker-9: Creating project "iterasys"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /iterasys/src/test/resources
+2021-01-29 21:17:26,552 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-29 21:17:26,561 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-01-29 21:17:26,565 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-29 21:17:26,567 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
