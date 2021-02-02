@@ -2,7 +2,10 @@ package iterasys;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -21,6 +24,7 @@ public class Consulta {
 		url="https://www.iterasys.com.br";
 		System.setProperty("webdriver.chrome.driver", "C:\\temp\\ws-eclipse-estudo-selenium\\iterasys\\Chrome Driver\\88\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(60000, TimeUnit.MILLISECONDS);
 	}
 	
 	@After
@@ -36,7 +40,8 @@ public class Consulta {
 	@Quando("^realizo um consulta por \"([^\"]*)\"$")
 	public void realizo_um_consulta_por(String termo)  {
 	   driver.findElement(By.id("searchtext")).clear();
-	   driver.findElement(By.id("searchtext")).sendKeys("teste de software");
+	   driver.findElement(By.id("searchtext")).sendKeys(Keys.chord(termo));
+	   driver.findElement(By.id("searchtext")).sendKeys(Keys.ENTER);
 	}
 
 	@Entao("^exibe um conjunto de cursos$")
@@ -51,6 +56,16 @@ public class Consulta {
 
 	@Entao("^valido que a duracao do curso sera \"([^\"]*)\" horas$")
 	public void valido_que_a_duracao_do_curso_sera_horas(String horas) {
-	   assertEquals("60 Horas de duração",driver.findElement(By.cssSelector("li.carga-horaria")).getText());
+	   assertEquals("60 Horas de duração", driver.findElement(By.cssSelector("li.carga-horaria")).getText());
 	}
 }
+
+
+
+
+
+
+
+
+
+

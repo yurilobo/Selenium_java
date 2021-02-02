@@ -1,12 +1,14 @@
 INDEX VERSION 1.131+C:\temp\ws-eclipse-estudo-selenium\.metadata\.plugins\org.eclipse.jdt.core
-3644916508.index
 3582022069.index
+3644916508.index
+428019691.index
 975696909.index
 1345816706.index
 3042500781.index
 4278726503.index
 2833544015.index
 424710691.index
+2619039860.index
 4210876544.index
 3851085681.index
 3860920887.index
@@ -15,11 +17,12 @@ INDEX VERSION 1.131+C:\temp\ws-eclipse-estudo-selenium\.metadata\.plugins\org.ec
 2960982418.index
 3995619778.index
 971611450.index
-3122061379.index
-1980203668.index
 1398345776.index
+1980203668.index
+3122061379.index
 889502782.index
 4197953603.index
+237701107.index
 145005982.index
 3969942908.index
 2229964798.index
